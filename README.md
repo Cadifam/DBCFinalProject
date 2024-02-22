@@ -72,11 +72,11 @@ Starting Virtual Env
 
 ## Data Preprocessing
 
--Normalize the column names
--Droping the ID column
--Removing the (+) sign on the Dependants column
--Fill the NaN in the (Dependants, Credit_History, Loan_Amount, Gender, Self_Employed) columns
--Replacing categorical columns(Gender, Married, Self-Employed, Education, Property Area, Loan-Status) with integers
+- Normalize the column names to lower case
+- Drop the ID column
+- Remove the (+) sign on the Dependants column
+- Fill the NaN in the (Dependants, Credit_History, Loan_Amount, Gender, Self_Employed) columns
+- Replace categorical column(Loan-Status) with integers
 
 ## Exploratory Data Analysis (EDA)
 
