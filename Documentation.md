@@ -13,7 +13,7 @@
 
 ## 1. Introduction
 
-Welcome to the documentation for loan prediction, a classification model designed to come out with a prediction wheather a customer will be able to pay back his/her loan based on certain attributes. This documentation provides comprehensive guidance on installing, training, and utilizing the model effectively.
+Welcome to the documentation for loan prediction, a classification model designed to come out with a prediction to tell if a customer will be able to pay back his/her loan based on certain attributes. This documentation provides comprehensive guidance on installing, training, and utilizing the model effectively.
 
 ## 2. Model Overview
 
@@ -25,7 +25,7 @@ The purpose of the loan-model is to make prediction as to whether to "Approve" o
 
 ## 4. Target audience.
 
-The target audience of this model are businesses who are into loan processes eg. banks, credit unions, micro finance, saving and loan companies etc
+The target audience for this model are businesses who are into loan processes eg. banks, credit unions, micro finance, saving and loan companies etc
 
 ## 5. Installation and Dependencies
 
