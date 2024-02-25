@@ -42,7 +42,7 @@ In this project, we are going to classify an individual whether he/she can get t
         -change directory from your local repo to the cloned github repo
 
     Installing Packages
-        -pipenv install
+        pipenv install:
         -jupyter notebook
         -pandas
         -numpy
