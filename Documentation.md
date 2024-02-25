@@ -19,7 +19,7 @@ Loan-model is a machine learning model that performs classification tasks. It ta
 
 ## 3. Installation and Dependencies
 
-### To use loan-model, ensure you have the following dependencies installed:
+### To use the loan-model, ensure you have the following dependencies installed:
 
         -jupyter notebook
         -pandas
@@ -48,7 +48,7 @@ Loan-model requires labeled training data for effective training. Ensure your tr
 
 ## 5. Model Training
 
-### To train loan-model, follow these steps:
+### To train the loan-model, follow these steps:
 
         Step 1: Prepare your training data.
         Step 2: Instantiate the model.
@@ -65,9 +65,9 @@ Once trained, loan-model can be used for classifying new data. Follow these step
 
     Step 1: Load the trained model.
     Step 2: Preprocess the input data.
-    Step 3: Use the model to predict the class labels.
+    Step 3: Use the model to predict the class label/target.
 
-### Support and Assistance
+## Support and Assistance
 
 Email: [dkinkum@st.ug.edu.gh]
 Phone: [+233243752751]
