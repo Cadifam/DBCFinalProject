@@ -8,19 +8,19 @@ In this Loan Status Prediction dataset, we have the data of applicants who previ
 
 ## About the loan_data.csv file:
 
--Loan_ID: A unique loan ID.
--Gender: Either male or female.
--Married: Weather Married(yes) or Not Marttied(No).
--Dependents: Number of persons depending on the client.
--Education: Applicant Education(Graduate or Undergraduate).
--Self_Employed: Self-employed (Yes/No).
--ApplicantIncome: Applicant income.
--CoapplicantIncome: Co-applicant income.
--LoanAmount: Loan amount in thousands.
--Loan_Amount_Term: Terms of the loan in months.
--Credit_History: Credit history meets guidelines.
--Property_Area: Applicants are living either Urban, Semi-Urban or Rural.
--Loan_Status: Loan approved (Y/N).
+    -Loan_ID: A unique loan ID.
+    -Gender: Either male or female.
+    -Married: Weather Married(yes) or Not Marttied(No).
+    -Dependents: Number of persons depending on the client.
+    -Education: Applicant Education(Graduate or Undergraduate).
+    -Self_Employed: Self-employed (Yes/No).
+    -ApplicantIncome: Applicant income.
+    -CoapplicantIncome: Co-applicant income.
+    -LoanAmount: Loan amount in thousands.
+    -Loan_Amount_Term: Terms of the loan in months.
+    -Credit_History: Credit history meets guidelines.
+    -Property_Area: Applicants are living either Urban, Semi-Urban or Rural.
+    -Loan_Status: Loan approved (Y/N).
 
 ## Goal:
 
@@ -42,8 +42,16 @@ Using github;
 -change directory from your local repo to the cloned github repo
 
 #Installing Packages
--pipenv install jupyter notebook pandas numpy matplotlib seaborn scikit-learn pyarrow
-Starting Virtual Env
+-pipenv install
+-jupyter notebook
+-pandas
+-numpy
+-matplotlib
+-seaborn
+-scikit-learn
+-pyarrow
+
+## Starting Virtual Env
 
 #Starting Notebook
 -pipenv shell
@@ -68,7 +76,7 @@ Starting Virtual Env
 -df.shape()
 -df.dtypes
 -df.isnull().sum()
--unique instances()
+-unique instances() etc
 
 #Data Preprocessing
 -Normalize the column names to lower case
@@ -93,32 +101,35 @@ Starting Virtual Env
 
 ## Target Variable Analysis:
 
--Load the cleaned loan dataset
--Perform a target variable analysis
--Build a Validation Framework
--Divide the dataset into three (3) - Training dataset 60% - Validation dataset 20% - Testing dataset 20%
+    -Load the cleaned loan dataset
+    -Perform a target variable analysis
+    -Build a Validation Framework
+    -Divide the dataset into three (3)
+        -Training dataset 60%
+        -Validation dataset 20%
+        -Testing dataset 20%
 
 ## Feature Engineering:
 
--Seperate the dataset into numerical attributes and categorical attributes
--perform the one-hot encoding
--convert the dataframe into dict
--DictVectorizer
--(fit) the train_dict
+    -Seperate the dataset into numerical attributes and categorical attributes
+    -perform the one-hot encoding
+    -convert the dataframe into dict
+    -DictVectorizer
+    -(fit) the train_dict
 
 ## Train The Model:
 
--LogisticRegression
--compaire predicted truth vrs ground truth
+    -LogisticRegression
+    -compaire predicted truth vrs ground truth
 
 The predictions of the model: a two-column matrix. The first column contains the probability that the target is zero (the application will be approved). The second column contains the opposite probability (the target is one, and the application will be rejected).
 The output of the (probabilities) is often called soft predictions. These tell us the probability of rejection as a number between zero and one. It’s up to us to decide how to interpret this number and how to use it.
 
 ## Saving The Model:
 
--import pickle
--specifyging where to save the file
--save the model
+    -import pickle
+    -specifyging where to save the file
+    -save the model
 
 ## Testing the Model:
 
@@ -129,6 +140,7 @@ The output of the (probabilities) is often called soft predictions. These tell u
 
 -load the saved model
 -Load applicant Data to predict status (Approve/Reject) of application
+
 #Models's verdict
 -if prediction >= 0.5, applicant is in a good financial standing to pay back loan; therefore "Approve"
 -if prediction <= 0.5, applicant is not in a good financial standing to pay back loan; therefore "Reject"
