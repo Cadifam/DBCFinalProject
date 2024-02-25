@@ -17,6 +17,14 @@ Welcome to the documentation for loan prediction, a classification model designe
 
 Loan-model is a machine learning model that performs classification tasks. It takes input data and assigns it to one of several predefined classes based on learned patterns and features.
 
+### Purpose and objectives of the model.
+
+The purpose of the loan-model is to make prediction as to whether to "Approve" or "Reject" an applicants loan application based on certain characteristics of the applicant.
+
+### Target audience.
+
+The target audience of this model are businesses who are into loan processes eg. banks, credit unions, micro finance, saving and loan companies etc
+
 ## 3. Installation and Dependencies
 
 ### To use the loan-model, ensure you have the following dependencies installed:
