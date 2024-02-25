@@ -69,7 +69,7 @@ Once trained, loan-model can be used for classifying new data. Follow these step
 
 ## Support and Assistance
 
-    Email: [dkinkum@st.ug.edu.gh]
-    Phone: [+233243752751]
-    
+    Email: dkinkum@st.ug.edu.gh
+    Phone: +233243752751
+
 This documentation aims to provide users with all the necessary information to effectively use and understand loan-model. If you have any feedback or suggestions for improvement, please feel free to contact us. Thank you for choosing loan-model!
