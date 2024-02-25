@@ -67,7 +67,7 @@ Once trained, loan-model can be used for classifying new data. Follow these step
     Step 2: Preprocess the input data.
     Step 3: Use the model to predict the class label/target.
 
-## Support and Assistance
+## Support and Contact Information
 
     Email: dkinkum@st.ug.edu.gh
     Phone: +233243752751
