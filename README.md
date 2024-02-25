@@ -1,8 +1,8 @@
-## Loan Status Prediction
+## Loan status prediction
 
 Predict the loan to be approved or rejected for an applicant.
 
-## About Dataset
+## About dataset
 
 In this Loan Status Prediction dataset, we have the data of applicants who previously applied for the loan based on the property which is a Property Loan. The bank will decide whether to give a loan to the applicant based on some factors such as Applicant Income, Loan Amount, previous Credit History, Co-applicant Income, etc… Our goal is to build a Machine Learning Model to predict the loan to be approved or to be rejected for an applicant.
 
@@ -26,13 +26,13 @@ In this Loan Status Prediction dataset, we have the data of applicants who previ
 
 In this project, we are going to classify an individual whether he/she can get the loan amount based on his/her Income, Education, Working Experience, Loan taken previously, and many more factors. Let’s get more into it by looking at the data.
 
-## The project is divided into three (3) parts(stages)
+## The project is divided into three (3) parts/stages:
 
     - Load data for preprocesing and save preprocessed data for (EDA)
-    - Exploratory Data Analysis on the preprocessed data / model saving
-    - Loading saved model and testing the model
+    - Perform Exploratory Data Analysis on the preprocessed data and save model
+    - Load saved model and test the model
 
-## Environment Configuration (Installing virtual Env)
+## Environment Configuration (Installing virtual Env):
 
 -pip install pipenv
 
@@ -55,7 +55,7 @@ Starting Virtual Env
 #Deactiving Virtual Env
 -exit
 
-## Load data for preprocessing
+## Load data for preprocessing:
 
 #Import libraries
 -import numpy as np
@@ -78,7 +78,7 @@ Starting Virtual Env
 -Replace categorical column(Loan-Status) with integers
 -Save cleaned dataset
 
-## Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA):
 
 #Import libraries
 -import numpy as np
@@ -91,14 +91,14 @@ Starting Virtual Env
 -from sklearn.metrics import accuracy_score
 -import pickle
 
-## Data Preprocessing - Step 2
+## Target Variable Analysis:
 
 -Load the cleaned loan dataset
 -Perform a target variable analysis
 -Build a Validation Framework
 -Divide the dataset into three (3) - Training dataset 60% - Validation dataset 20% - Testing dataset 20%
 
-## Feature Engineering
+## Feature Engineering:
 
 -Seperate the dataset into numerical attributes and categorical attributes
 -perform the one-hot encoding
@@ -106,7 +106,7 @@ Starting Virtual Env
 -DictVectorizer
 -(fit) the train_dict
 
-## Train The Model
+## Train The Model:
 
 -LogisticRegression
 -compaire predicted truth vrs ground truth
@@ -114,13 +114,13 @@ Starting Virtual Env
 The predictions of the model: a two-column matrix. The first column contains the probability that the target is zero (the application will be approved). The second column contains the opposite probability (the target is one, and the application will be rejected).
 The output of the (probabilities) is often called soft predictions. These tell us the probability of rejection as a number between zero and one. It’s up to us to decide how to interpret this number and how to use it.
 
-## Saving The Model
+## Saving The Model:
 
 -import pickle
 -specifyging where to save the file
 -save the model
 
-## Testing the Model
+## Testing the Model:
 
 #Load libraries
 -import numpy as np
