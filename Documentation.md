@@ -2,6 +2,8 @@
 
     -Introduction
     -Model Overview
+    -Purpose and objectives of the model
+    -Target audience
     -Installation and Dependencies
     -Training Data
     -Model Training
@@ -17,15 +19,15 @@ Welcome to the documentation for loan prediction, a classification model designe
 
 Loan-model is a machine learning model that performs classification tasks. It takes input data and assigns it to one of several predefined classes based on learned patterns and features.
 
-### Purpose and objectives of the model.
+## 3. Purpose and objectives of the model.
 
 The purpose of the loan-model is to make prediction as to whether to "Approve" or "Reject" an applicants loan application based on certain characteristics of the applicant.
 
-### Target audience.
+## 4. Target audience.
 
 The target audience of this model are businesses who are into loan processes eg. banks, credit unions, micro finance, saving and loan companies etc
 
-## 3. Installation and Dependencies
+## 5. Installation and Dependencies
 
 ### To use the loan-model, ensure you have the following dependencies installed:
 
@@ -50,11 +52,11 @@ The target audience of this model are businesses who are into loan processes eg.
         -scikit-learn
         -pyarrow
 
-## 4. Training Data
+## 6. Training Data
 
 Loan-model requires labeled training data for effective training. Ensure your training data is well-preprocessed and properly formatted before proceeding with training.
 
-## 5. Model Training
+## 7. Model Training
 
 ### To train the loan-model, follow these steps:
 
@@ -63,11 +65,11 @@ Loan-model requires labeled training data for effective training. Ensure your tr
         Step 3: Train the model using the training data.
         Step 4: Evaluate the trained model.
 
-## 6. Evaluation Metrics
+## 8. Evaluation Metrics
 
 Loan-model can be evaluated using various metrics such as accuracy, precision etc. Choose appropriate metrics based on your classification task and interpret the results accordingly.
 
-## 7. Model Usage
+## 9. Model Usage
 
 Once trained, loan-model can be used for classifying new data. Follow these steps to utilize the model:
 
@@ -75,7 +77,7 @@ Once trained, loan-model can be used for classifying new data. Follow these step
     Step 2: Preprocess the input data.
     Step 3: Use the model to predict the class label/target.
 
-## Support and Contact Information
+## 10. Support and Contact Information
 
     Email: dkinkum@st.ug.edu.gh
     Phone: +233243752751
