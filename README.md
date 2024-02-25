@@ -34,70 +34,70 @@ In this project, we are going to classify an individual whether he/she can get t
 
 ## Environment Configuration (Installing virtual Env):
 
--pip install pipenv
+    -pip install pipenv
 
-Using github;
--create a repo with your github account
--clone the repo on your local directory
--change directory from your local repo to the cloned github repo
+    Using github;
+        -create a repo with your github account
+        -clone the repo on your local directory
+        -change directory from your local repo to the cloned github repo
 
-#Installing Packages
--pipenv install
--jupyter notebook
--pandas
--numpy
--matplotlib
--seaborn
--scikit-learn
--pyarrow
+    #Installing Packages
+        -pipenv install
+        -jupyter notebook
+        -pandas
+        -numpy
+        -matplotlib
+        -seaborn
+        -scikit-learn
+        -pyarrow
 
 ## Starting Virtual Env
 
-#Starting Notebook
--pipenv shell
--jupyter-notebook
+    #Starting Notebook
+        -pipenv shell
+        -jupyter-notebook
 
-#Stoping Notebook
--Ctrl+c
+    #Stoping Notebook
+        -Ctrl+c
 
-#Deactiving Virtual Env
--exit
+    #Deactiving Virtual Env
+        -exit
 
 ## Load data for preprocessing:
 
-#Import libraries
--import numpy as np
--import pandas as pd
+    #Import libraries
+        -import numpy as np
+        -import pandas as pd
 
-#Load and perform overview of dataset
--df.head()
--df.tail().T
--df.info()
--df.shape()
--df.dtypes
--df.isnull().sum()
--unique instances() etc
+    #Load and perform overview of dataset
+        -df.head()
+        -df.tail().T
+        -df.info()
+        -df.shape()
+        -df.dtypes
+        -df.isnull().sum()
+        -unique instances() etc
 
-#Data Preprocessing
--Normalize the column names to lower case
--Drop the ID column
--Remove the (+) sign on the Dependants column
--Fill the NaN in the (Dependants, Credit_History, Loan_Amount, Gender, Self_Employed) columns
--Replace categorical column(Loan-Status) with integers
--Save cleaned dataset
+    #Data Preprocessing
+        -Normalize the column names to lower case
+        -Drop the ID column
+        -Remove the (+) sign on the Dependants column
+        -Fill the NaN in the (Dependants, Credit_History, Loan_Amount, Gender, Self_Employed) columns
+        -Replace categorical column(Loan-Status) with integers
+        -Save cleaned dataset
 
 ## Exploratory Data Analysis (EDA):
 
-#Import libraries
--import numpy as np
--import pandas as pd
--import matplotlib.pyplot as plt
--import seaborn as sns
--from sklearn.model_selection import train_test_split
--from sklearn.feature_extraction import DictVectorizer
--from sklearn.linear_model import LogisticRegression
--from sklearn.metrics import accuracy_score
--import pickle
+    #Import libraries
+        -import numpy as np
+        -import pandas as pd
+        -import matplotlib.pyplot as plt
+        -import seaborn as sns
+        -from sklearn.model_selection import train_test_split
+        -from sklearn.feature_extraction import DictVectorizer
+        -from sklearn.linear_model import LogisticRegression
+        -from sklearn.metrics import accuracy_score
+        -import pickle
 
 ## Target Variable Analysis:
 
@@ -133,14 +133,15 @@ The output of the (probabilities) is often called soft predictions. These tell u
 
 ## Testing the Model:
 
-#Load libraries
--import numpy as np
--import pandas as pd
--import pickle
+    #Load libraries
+        -import numpy as np
+        -import pandas as pd
 
--load the saved model
--Load applicant Data to predict status (Approve/Reject) of application
+-       import pickle
 
-#Models's verdict
--if prediction >= 0.5, applicant is in a good financial standing to pay back loan; therefore "Approve"
--if prediction <= 0.5, applicant is not in a good financial standing to pay back loan; therefore "Reject"
+  -load the saved model
+  -Load applicant Data to predict status (Approve/Reject) of application
+
+  #Models's verdict
+  -if prediction >= 0.5, applicant is in a good financial standing to pay back loan; therefore "Approve"
+  -if prediction <= 0.5, applicant is not in a good financial standing to pay back loan; therefore "Reject"
