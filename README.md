@@ -51,7 +51,7 @@ In this project, we are going to classify an individual whether he/she can get t
         -scikit-learn
         -pyarrow
 
-## Starting Virtual Env
+## Starting/Stopping Virtual Env
 
     Starting Notebook
         -pipenv shell
