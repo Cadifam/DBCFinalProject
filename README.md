@@ -41,7 +41,7 @@ In this project, we are going to classify an individual whether he/she can get t
         -clone the repo on your local directory
         -change directory from your local repo to the cloned github repo
 
-    #Installing Packages
+    Installing Packages
         -pipenv install
         -jupyter notebook
         -pandas
@@ -53,23 +53,23 @@ In this project, we are going to classify an individual whether he/she can get t
 
 ## Starting Virtual Env
 
-    #Starting Notebook
+    Starting Notebook
         -pipenv shell
         -jupyter-notebook
 
-    #Stoping Notebook
+    Stoping Notebook
         -Ctrl+c
 
-    #Deactiving Virtual Env
+    Deactiving Virtual Env
         -exit
 
 ## Load data for preprocessing:
 
-    #Import libraries
+    Import libraries
         -import numpy as np
         -import pandas as pd
 
-    #Load and perform overview of dataset
+    Load and perform overview of dataset
         -df.head()
         -df.tail().T
         -df.info()
@@ -78,7 +78,7 @@ In this project, we are going to classify an individual whether he/she can get t
         -df.isnull().sum()
         -unique instances() etc
 
-    #Data Preprocessing
+    Data Preprocessing
         -Normalize the column names to lower case
         -Drop the ID column
         -Remove the (+) sign on the Dependants column
@@ -88,7 +88,7 @@ In this project, we are going to classify an individual whether he/she can get t
 
 ## Exploratory Data Analysis (EDA):
 
-    #Import libraries
+    Import libraries
         -import numpy as np
         -import pandas as pd
         -import matplotlib.pyplot as plt
@@ -133,15 +133,15 @@ The output of the (probabilities) is often called soft predictions. These tell u
 
 ## Testing the Model:
 
-    #Load libraries
+    Load libraries
         -import numpy as np
         -import pandas as pd
+        -import pickle
 
--       import pickle
+    -load the saved model
+    -Load applicant Data to predict status (Approve/Reject) of application
 
-  -load the saved model
-  -Load applicant Data to predict status (Approve/Reject) of application
+    Models's verdict:
 
-  #Models's verdict
-  -if prediction >= 0.5, applicant is in a good financial standing to pay back loan; therefore "Approve"
-  -if prediction <= 0.5, applicant is not in a good financial standing to pay back loan; therefore "Reject"
+        -if prediction >= 0.5, applicant is in a good financial standing to pay back loan; therefore "Approve"
+        -if prediction <= 0.5, applicant is not in a good financial standing to pay back loan; therefore "Reject"
