@@ -33,6 +33,6 @@
 
     Business communities in the United States are facing high demand for human resources, but one of the constant challenges is identifying and attracting the right talent, which is perhaps the most important element in remaining competitive. Companies in the United States look for hard-working, talented, and qualified individuals both locally as well as abroad.
 
-## The final model will be lunched on huggingface.com for your use
+## The final model will be lunched on huggingface.com for general use
 
 ### Your feedback will be much appreciated
