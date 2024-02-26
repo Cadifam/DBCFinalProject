@@ -6,8 +6,12 @@
         - loan status
         - Used phone prices
         - Visa approvals
-### Note:
-The project is in phases; as and when a model is ready, it will be uploaded
+
+# Note:
+
+    The project is in phases; as and when a model is ready, it will be uploaded.
+    You can read more on the projects in the various project's README file
+    Documentations are also available to guide users on the use of the model on huggingface.com
 
 ## 1. Breast cancer
 
