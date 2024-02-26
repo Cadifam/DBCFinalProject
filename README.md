@@ -63,7 +63,7 @@ In this project, we are going to classify an individual whether he/she can get t
     Deactiving Virtual Env
         -exit
 
-## Load data for preprocessing:
+## Load data reviewing of data:
 
     Import libraries
         -import numpy as np
@@ -77,6 +77,12 @@ In this project, we are going to classify an individual whether he/she can get t
         -df.dtypes
         -df.isnull().sum()
         -unique instances() etc
+
+## Data preprocessing:
+
+    Import libraries
+        -import numpy as np
+        -import pandas as pd
 
     Data Preprocessing
         -Normalize the column names to lower case
